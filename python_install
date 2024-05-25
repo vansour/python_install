@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
 apt -y update
+apt -y upgrade
+apt -y install wget curl socat gcc g++ make cmake jq zip unzip tree vim build-essential libbz2-dev libncurses5-dev libncursesw5-dev libgdbm-dev libdb-dev liblzma-dev libsqlite3-dev libssl-dev tk-dev uuid-dev libreadline-dev zlib1g-dev libffi-dev openssl
